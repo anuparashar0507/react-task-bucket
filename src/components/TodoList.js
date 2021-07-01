@@ -56,13 +56,13 @@ const TodoList = () => {
     return (
         <>
         <div className = "header text-center">
-        <h3 className="title">Todo List</h3>
+        <h3 className="title">React Task Bucket</h3>
         <button className = "btn btn-primary create" onClick = {() => setModal(true)} >Create Task</button>
     </div>
     <Count
         count={
           taskList.length === 0
-            ? "Empty"
+            ? "Your Task Bucket is Empty Please Create one"
             : `Total Task ${taskList.length}`
         }
       />
