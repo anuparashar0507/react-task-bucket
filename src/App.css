@@ -7,7 +7,12 @@
   background: #161a2b;
   padding: 20px;
 }
-
+.footer{
+  display: block;
+  
+  color : white;
+  background: #161a2b;
+}
 .card-wrapper{
   width: 270px; 
   height: min-content; 
@@ -133,4 +138,32 @@ hr{
   color: white;
   padding: 10px;
   background: #161a2b;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  .header{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  
+  }
+  
+  .card-wrapper{
+    width: 165px; 
+    height: min-content; 
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+   /* background: linear-gradient(
+      90deg,
+      rgba(255, 118, 20, 1) 0%,
+      rgba(255, 84, 17, 1) 100%
+    );*/
+    padding: 10px;
+    border-radius: 5px;
+  
+  }
+  .task-container{
+ padding : 0px;
+  }
 }

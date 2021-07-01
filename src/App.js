@@ -10,6 +10,9 @@ function App() {
   return (
     <div className="App">
     <TaskList />
+    <div className = "footer text-center">
+        <h6 className="title">Created Using React beautiful dnd by Anupam Parashar</h6>
+    </div>
   </div>
   );
 }
