@@ -30,8 +30,8 @@ const Card = ({taskObj, index, deleteTask, updateListArray}) => {
             <div className = "task-holder">
                 <div className = "task-content">
                <div className = "card-header" > <span >{taskObj.Name}</span></div>
-               
-                <p className = "card-description"><hr />{taskObj.Description}</p>
+               <hr />
+                <p className = "card-description">{taskObj.Description}</p>
                 </div>
 
                 <div className ="task-button">

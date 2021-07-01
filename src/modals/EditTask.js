@@ -24,7 +24,7 @@ const EditTaskPopup = ({modal, toggle, updateTask, taskObj}) => {
         setTaskName(taskObj.Name)
         setDescription(taskObj.Description)
         setChecked(taskObj.Checked)
-    },[])
+    },[taskObj.Checked, taskObj.Description, taskObj.Name])
 
     const handleUpdate = (e) => {
         e.preventDefault();
