@@ -57,7 +57,7 @@ const Card = ({taskObj, index, deleteTask, updateListArray}) => {
                 </div>
 
                 <div className ="task-button">
-                    <i className = "far fa-edit mr-3 edit"  onClick = {() => setModal(true)}></i>
+                    <i className = "far fa-edit  edit"  onClick = {() => setModal(true)}></i>
                     <i className ="far fa-trash-alt delete"  onClick = {handleDelete}></i>
                 </div>
         </div>
