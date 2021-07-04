@@ -4,7 +4,7 @@ import Card from './Card';
 import Count from './Count'
 import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
 
-const TodoList = () => {
+const TaskList = () => {
     const [modal, setModal] = useState(false);
     const [taskList, setTaskList] = useState([])
    //  const [completedTask, setCompletedTask] = useState('') 
@@ -84,10 +84,9 @@ const TodoList = () => {
 
     <CreateTask toggle = {toggle} modal = {modal} save = {saveTask}/>
 
-
           </>  
          
     );
 };
 
-export default TodoList;
+export default TaskList;
